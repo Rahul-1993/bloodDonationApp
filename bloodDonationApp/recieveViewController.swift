@@ -29,11 +29,6 @@ class recieveViewController: UIViewController {
         
     }
     
-    @IBAction func submitButton(_ sender: Any) {
-        
-     
-        
-    }
     /*
     // MARK: - Navigation
 

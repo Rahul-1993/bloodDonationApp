@@ -8,5 +8,6 @@ target 'bloodDonationApp' do
   # Pods for bloodDonationApp
 
     pod 'Parse'
+    pod 'ParseUI'
 
 end
