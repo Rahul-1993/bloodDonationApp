@@ -12,10 +12,15 @@ import ParseUI
 
 var myIndex = 0
 
+
+
 class displayTableViewController: PFQueryTableViewController {
+    
+    var pincode = String()
     
     override func queryForTable() -> PFQuery<PFObject> {
         let query = PFQuery(className: "Doners")
+        query.whereKey("postalCode", equalTo: pincode)
         query.order(byAscending: "lastName")
         return query
     }

@@ -11,6 +11,7 @@ import Parse
 
 class recieveViewController: UIViewController {
 
+    @IBOutlet weak var pincodeTextField: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -29,6 +30,19 @@ class recieveViewController: UIViewController {
         
     }
     
+    @IBAction func submitButton(_ sender: Any) {
+        
+        performSegue(withIdentifier: "displayTableViewSegue", sender: self)
+        
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        let destVC = segue.destination as! displayTableViewController
+        if let passpincode = pincodeTextField.text {
+        destVC.pincode = passpincode
+        }
+    }
     /*
     // MARK: - Navigation
 
