@@ -10,6 +10,8 @@ import UIKit
 import Parse
 import ParseUI
 
+var myIndex = 0
+
 class displayTableViewController: PFQueryTableViewController {
     
     override func queryForTable() -> PFQuery<PFObject> {
@@ -53,14 +55,15 @@ class displayTableViewController: PFQueryTableViewController {
         
     }
     
-//    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-//        if indexPath.row + 1 > (self.objects?.count)! {
-//            return 44
-//        } else {
-//            let height = super.tableView(tableView, heightForRowAt: indexPath)
-//            return height
-//        }
-//    }
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        myIndex = indexPath.row
+        performSegue(withIdentifier: "segue", sender: self)
+    }
+    
+    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 280
+    }
     
 
     // MARK: - Table view data source

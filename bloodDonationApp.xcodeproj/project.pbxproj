@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7999E6A02018F14900D3C7E1 /* displayDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7999E69F2018F14900D3C7E1 /* displayDetailsViewController.swift */; };
 		79B4ED411FEB26FE00B1BEF6 /* donateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B4ED401FEB26FE00B1BEF6 /* donateViewController.swift */; };
 		79B4ED431FEB271300B1BEF6 /* recieveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B4ED421FEB271300B1BEF6 /* recieveViewController.swift */; };
 		79D22FFB1FEDB647001E5FE0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79D22FFA1FEDB647001E5FE0 /* CoreLocation.framework */; };
@@ -43,6 +44,7 @@
 /* Begin PBXFileReference section */
 		3B4B9E89EFB9542030DE83FE /* Pods_bloodDonationApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bloodDonationApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D8F07D61FEF06E0C6796483 /* Pods-bloodDonationApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bloodDonationApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-bloodDonationApp/Pods-bloodDonationApp.debug.xcconfig"; sourceTree = "<group>"; };
+		7999E69F2018F14900D3C7E1 /* displayDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = displayDetailsViewController.swift; sourceTree = "<group>"; };
 		79B4ED401FEB26FE00B1BEF6 /* donateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = donateViewController.swift; sourceTree = "<group>"; };
 		79B4ED421FEB271300B1BEF6 /* recieveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recieveViewController.swift; sourceTree = "<group>"; };
 		79D22FFA1FEDB647001E5FE0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
@@ -132,6 +134,7 @@
 				79B4ED421FEB271300B1BEF6 /* recieveViewController.swift */,
 				79F14322201592BD004A52DE /* CellDisplay.swift */,
 				79F14324201592F6004A52DE /* displayTableViewController.swift */,
+				7999E69F2018F14900D3C7E1 /* displayDetailsViewController.swift */,
 				79F91D1D1FE73BF900F873B0 /* Main.storyboard */,
 				79F91D201FE73BF900F873B0 /* Assets.xcassets */,
 				79F91D221FE73BF900F873B0 /* LaunchScreen.storyboard */,
@@ -367,6 +370,7 @@
 				79F14323201592BD004A52DE /* CellDisplay.swift in Sources */,
 				79B4ED431FEB271300B1BEF6 /* recieveViewController.swift in Sources */,
 				79F91D1C1FE73BF900F873B0 /* ViewController.swift in Sources */,
+				7999E6A02018F14900D3C7E1 /* displayDetailsViewController.swift in Sources */,
 				79F91D1A1FE73BF900F873B0 /* AppDelegate.swift in Sources */,
 				79F14325201592F6004A52DE /* displayTableViewController.swift in Sources */,
 				79B4ED411FEB26FE00B1BEF6 /* donateViewController.swift in Sources */,

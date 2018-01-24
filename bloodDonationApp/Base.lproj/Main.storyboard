@@ -265,10 +265,40 @@
                             <outlet property="delegate" destination="9YW-sD-3sn" id="kb4-r5-7x2"/>
                         </connections>
                     </tableView>
+                    <connections>
+                        <segue destination="RDg-0y-doV" kind="show" identifier="segue" id="IJ1-dj-DzD"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1Iu-Dt-qFT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2544.8000000000002" y="454.72263868065971"/>
+        </scene>
+        <!--Display Details View Controller-->
+        <scene sceneID="8ps-qp-Imi">
+            <objects>
+                <viewController id="RDg-0y-doV" customClass="displayDetailsViewController" customModule="bloodDonationApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="W51-z3-IkJ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DlJ-Wt-Rtr">
+                                <rect key="frame" x="166" y="93" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="x8V-7R-vgP"/>
+                    </view>
+                    <connections>
+                        <outlet property="label" destination="DlJ-Wt-Rtr" id="DXO-Ly-ixd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="glK-Zb-HWZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3263" y="455"/>
         </scene>
         <!--Donate-->
         <scene sceneID="3wo-Hw-sos">
